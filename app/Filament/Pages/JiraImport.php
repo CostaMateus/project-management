@@ -69,7 +69,8 @@ class JiraImport extends Page implements HasForms
 
     protected static function getNavigationGroup(): ?string
     {
-        return __('Settings');
+        // return __('Settings');
+        return '';
     }
 
     protected function getFormSchema(): array
